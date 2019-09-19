@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="./index.js"></script>
+<script>
+    let mp = new Promise(function (resolve, reject) {
+        resolve('2');
+        console.log('1')
+    });
+    mp.then(data => console.log(data));
+    console.log('3')
+</script>
+</html>
